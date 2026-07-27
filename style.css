@@ -116,9 +116,32 @@ label{
 }
 .barra{
     height:30px;
-    width 100%;
+    width: 100%;
     background-color: var(--fundo-barra);
+}
 
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    background-color: red;
+    width: 25%;
+}
+
+.media{
+    background-color: yellow;
+    width: 50%;
+}
+
+.forte{
+    background-color: rgb(9, 210, 9);
+    width: 100%;
 }
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
