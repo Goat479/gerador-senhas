@@ -10,6 +10,9 @@
     --roboto: 'Roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
+
+
+
 * {
     font-weight: 400;
 }
@@ -86,7 +89,7 @@ body {
     margin: 0 auto;
 }
 
-.parametro-senha-botoes {
+.parametro-senha-botoes{
     display: flex;
     justify-content: center;
 }
@@ -98,57 +101,79 @@ body {
     padding: 24px;
     font-size: 24px;
     cursor: pointer;
+
 }
 
 .parametro-senha__texto {
-    padding: 24px;
-    border-top: 2px solid var(--borda);
-    border-bottom: 2px solid var(--borda);
-    margin: 0;
-    font-size: 24px;
+   border-top: 2px solid var(--borda);
+   border-bottom: 2px solid var(--borda);
+   padding: 24px;
+   margin: 0px;
+   font-size: 24px;
+
 }
 
-.checkbox {
+label{
+    font-size: 20px;
+}
+
+.checkbox{
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
 
-label {
-    font-size: 20px;
-}
-
-.barra {
+.barra{
+    background-color: var(--fundo-senha);
     height: 30px;
     width: 100%;
-    background-color: var(--fundo-barra);
 }
 
-.forca {
+.parametro-senha-textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.forca{ 
     height: 30px;
     position: relative;
     bottom: 30px;
 }
 
-.fraca {
-    background-color: red;
+.fraca{
+    background-color: #E71B32;
     width: 25%;
 }
 
-.media {
-    background-color: yellow;
+.media{
+    background-color: #FAF408;
     width: 50%;
 }
 
 .forte{
-    background-color: rgb(11, 248, 11);
+    background-color: #00FF85;
+    width: 100%;
+}
+.forca{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.forca{
+    background-color: red;
+    width: 25%;
+}
+
+.media{
+  background-color: yellow;
+    width: 50%;
+}
+
+.forte{
+    background-color: green;
     width: 100%;
 }
 
-.parametro-senha-textos{
-    display:flex;
-    justify-content: space-between;
-}
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
